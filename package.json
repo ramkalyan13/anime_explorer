@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "node run ./bin/www"
+    "start": "nodemon run ./bin/www"
   },
   "engines": {
     "node": ">=11.0.0",
@@ -14,6 +14,7 @@
     "debug": "~2.6.9",
     "express": "^4.18.2",
     "http-errors": "~1.6.3",
+    "mongoose": "^7.5.1",
     "morgan": "~1.9.1",
     "nodemon": "^3.0.1",
     "pug": "^3.0.2"
